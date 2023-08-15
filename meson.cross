@@ -1,0 +1,13 @@
+[host_machine]
+system = 'linux'
+cpu_family = 'arm'
+cpu = 'arm'
+endian = 'little'
+
+[binaries]
+c = 'arm-buildroot-linux-gnueabihf-gcc'
+cpp = 'arm-buildroot-linux-gnueabihf-g++'
+ar = 'arm-buildroot-linux-gnueabihf-gcc-ar'
+ld = 'arm-buildroot-linux-gnueabihf-ld'
+objcopy = 'arm-buildroot-linux-gnueabihf-objcopy'
+strip = 'arm-buildroot-linux-gnueabihf-strip'
