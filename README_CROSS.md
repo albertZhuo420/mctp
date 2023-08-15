@@ -20,9 +20,19 @@
   strip = 'arm-buildroot-linux-gnueabihf-strip'
   ```
 
-  - 参考链接: https://mesonbuild.com/Cross-compilation.html;
+  - 参考链接: 
 
-    **`host_machine`**: Provides information about the host machine -- the machine on which the compiled binary will run.
+    [meson 交叉编译](https://blog.csdn.net/xys616/article/details/116756444);
+
+    [Compilation and Installation Using Meson](https://docs.mesa3d.org/meson.html);
+
+    [使用meson交叉编译glib库的过程](https://blog.csdn.net/xiaolz88/article/details/129999608);
+
+  - **`host_machine`**: 
+
+    https://mesonbuild.com/Cross-compilation.html;
+
+    Provides information about the host machine -- the machine on which the compiled binary will run.
 
   - **binaries**: 这个参数的填写需要根据source的sdk中的变量来填写:
 
